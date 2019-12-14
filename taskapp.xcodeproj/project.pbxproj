@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		A1347D78239505270021158D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1347D77239505270021158D /* Assets.xcassets */; };
 		A1347D7B239505270021158D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1347D79239505270021158D /* LaunchScreen.storyboard */; };
 		A1347D83239507DC0021158D /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1347D82239507DC0021158D /* InputViewController.swift */; };
+		A16159372395B43C005CD0F4 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16159362395B43C005CD0F4 /* Task.swift */; };
 		CA0AE6E623376AFB76B7362B /* Pods_taskapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C60BBAAAF3842FEE0ADA765 /* Pods_taskapp.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +29,7 @@
 		A1347D7A239505270021158D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1347D7C239505270021158D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1347D82239507DC0021158D /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
+		A16159362395B43C005CD0F4 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +58,6 @@
 				4F4D2B26CF8EF12035604211 /* Pods-taskapp.debug.xcconfig */,
 				315A801D1AC2E7CCC5A0983C /* Pods-taskapp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -88,6 +89,7 @@
 				A1347D79239505270021158D /* LaunchScreen.storyboard */,
 				A1347D7C239505270021158D /* Info.plist */,
 				A1347D82239507DC0021158D /* InputViewController.swift */,
+				A16159362395B43C005CD0F4 /* Task.swift */,
 			);
 			path = taskapp;
 			sourceTree = "<group>";
@@ -207,6 +209,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A16159372395B43C005CD0F4 /* Task.swift in Sources */,
 				A1347D83239507DC0021158D /* InputViewController.swift in Sources */,
 				A1347D73239505260021158D /* ViewController.swift in Sources */,
 				A1347D71239505260021158D /* AppDelegate.swift in Sources */,
